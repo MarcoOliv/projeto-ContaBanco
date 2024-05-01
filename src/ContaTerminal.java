@@ -15,7 +15,7 @@ public class ContaTerminal {
         "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".
      */
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception {
 
     Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
